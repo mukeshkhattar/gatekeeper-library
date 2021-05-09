@@ -9,5 +9,5 @@ spec:
         kinds: ["Pod"]
   parameters:
     allowedHostPaths:
-    - readOnly: true
+    - readOnly: false
       pathPrefix: "/var/log"
