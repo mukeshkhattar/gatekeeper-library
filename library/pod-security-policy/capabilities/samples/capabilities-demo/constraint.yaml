@@ -10,5 +10,5 @@ spec:
     namespaces:
       - "default"
   parameters:
-    allowedCapabilities: ["something"]
-    requiredDropCapabilities: ["must_drop"]
+    allowedCapabilities: []
+    requiredDropCapabilities: []
