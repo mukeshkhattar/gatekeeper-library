@@ -11,3 +11,6 @@ spec:
     allowedHostPaths:
     - readOnly: false
       pathPrefix: "/var/log"
+    - readOnly: true
+      pathPrefix: /var/lib/docker/containers
+      
