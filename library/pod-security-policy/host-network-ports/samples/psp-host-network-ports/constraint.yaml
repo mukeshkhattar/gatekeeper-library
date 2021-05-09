@@ -8,6 +8,4 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
   parameters:
-    hostNetwork: true
-    min: 80
-    max: 9000
+    hostNetwork: false
